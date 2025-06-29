@@ -133,6 +133,17 @@ En esta imagen se muestra la petición DELETE a `/course/{id}`. La respuesta ind
 - La correcta organización del backend facilita el mantenimiento y la escalabilidad del proyecto.
 - El uso de Mongoose simplifica la interacción con MongoDB y permite definir validaciones a nivel de modelo.
 - Probar los endpoints con Postman asegura que la API responde correctamente a las operaciones CRUD básicas.
+- Separar la lógica en controladores, modelos y rutas permite un desarrollo más limpio y profesional.
+
+---
+
+## Recomendaciones
+
+- Mantener la estructura modular del proyecto para facilitar futuras ampliaciones o cambios.
+- Documentar cada endpoint y función para mejorar la mantenibilidad y comprensión del código.
+- Implementar validaciones personalizadas y manejo de errores más detallado para robustecer la API.
+- Considerar el uso de variables de entorno para credenciales y cadenas de conexión sensibles.
+- Realizar pruebas automatizadas para asegurar la calidad y funcionamiento de la API ante cambios futuros.
 
 ---
 
