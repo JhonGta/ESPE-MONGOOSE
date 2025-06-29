@@ -81,7 +81,7 @@ Conexión exitosa a MongoDB
 
 ### 2. Creación de un Curso (POST)
 
-![POST en Postman](RUTA/post-curso.png)
+![POST en Postman](https://i.imgur.com/4vq8fmR.png)
 
 Captura de Postman utilizando el método POST en la ruta `/course`. Se envía la petición y como respuesta se obtiene el objeto creado:
 ```json
@@ -98,7 +98,7 @@ Captura de Postman utilizando el método POST en la ruta `/course`. Se envía la
 
 ### 3. Consulta de Todos los Cursos (GET)
 
-![GET todos los cursos](RUTA/get-cursos.png)
+![GET todos los cursos](https://i.imgur.com/SBFAjBn.png)
 
 En esta imagen se muestra el uso del método GET en `/course` desde Postman, obteniendo como respuesta un arreglo con todos los cursos almacenados en la base de datos.
 
@@ -106,7 +106,7 @@ En esta imagen se muestra el uso del método GET en `/course` desde Postman, obt
 
 ### 4. Consulta de Curso por ID (GET)
 
-![GET curso por ID](RUTA/get-curso-id.png)
+![GET curso por ID](https://i.imgur.com/FR32gna.png)
 
 Aquí se visualiza la petición GET a `/course/{id}` en Postman, donde `{id}` corresponde al identificador de un curso específico. La respuesta muestra los datos del curso solicitado.
 
@@ -114,7 +114,7 @@ Aquí se visualiza la petición GET a `/course/{id}` en Postman, donde `{id}` co
 
 ### 5. Actualización de un Curso (PUT)
 
-![PUT actualizar curso](RUTA/put-curso.png)
+![PUT actualizar curso](https://i.imgur.com/SrbIJ7O.png)
 
 Captura de la petición PUT a `/course/{id}`. Se observa que el campo `numberOfTopics` ha sido actualizado a 20, confirmando que la operación fue exitosa.
 
@@ -122,7 +122,7 @@ Captura de la petición PUT a `/course/{id}`. Se observa que el campo `numberOfT
 
 ### 6. Eliminación de un Curso (DELETE)
 
-![DELETE eliminar curso](RUTA/delete-curso.png)
+![DELETE eliminar curso](https://i.imgur.com/U2vKzy9.png)
 
 En esta imagen se muestra la petición DELETE a `/course/{id}`. La respuesta indica `"Curso eliminado"`, confirmando que el curso fue removido correctamente de la base de datos.
 
